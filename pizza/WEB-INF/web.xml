@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	
+	<servlet>
+		
+		<servlet-name>Login</servlet-name>
+		<servlet-class>Login</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Registration</servlet-name>
+		<servlet-class>Registration</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ManagePizza</servlet-name>
+		<servlet-class>ManagePizza</servlet-class>
+	</servlet>
+        <servlet>
+		<servlet-name>EditProducts</servlet-name>
+		<servlet-class>EditProducts</servlet-class>
+	</servlet>
+        <servlet>
+		<servlet-name>Edit</servlet-name>
+		<servlet-class>Edit</servlet-class>
+	</servlet>
+        <servlet>
+		<servlet-name>createCart</servlet-name>
+		<servlet-class>createCart</servlet-class>
+	</servlet>
+    <servlet>
+		<servlet-name>removefromCart</servlet-name>
+		<servlet-class>removefromCart</servlet-class>
+	</servlet>
+    <servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>Logout</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Registration</servlet-name>
+		<url-pattern>/Registration</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ManagePizza</servlet-name>
+		<url-pattern>/ManagePizza</url-pattern>
+	</servlet-mapping>
+        <servlet-mapping>
+		<servlet-name>EditProducts</servlet-name>
+		<url-pattern>/EditProducts</url-pattern>
+	</servlet-mapping>
+        <servlet-mapping>
+		<servlet-name>Edit</servlet-name>
+		<url-pattern>/Edit</url-pattern>
+	</servlet-mapping>
+        <servlet-mapping>
+		<servlet-name>createCart</servlet-name>
+		<url-pattern>/createCart</url-pattern>
+	</servlet-mapping>
+    <servlet-mapping>
+		<servlet-name>removefromCart</servlet-name>
+		<url-pattern>/removefromCart</url-pattern>
+	</servlet-mapping>
+	 <servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+</web-app>

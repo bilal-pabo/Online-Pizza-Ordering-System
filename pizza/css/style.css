@@ -1,0 +1,16 @@
+
+body{
+    background-image: url("img\bg.jpg");
+}
+
+.custom-bg{
+    background: #ab47bc;
+}
+.admin .card:hover{
+    background: #e1bee7;
+    cursor: pointer;
+}
+.card .link:hover{
+    background: #e1bee7;
+    cursor: pointer;
+}
